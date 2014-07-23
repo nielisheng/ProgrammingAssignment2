@@ -2,9 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+library(ggplot2)
 makeCacheMatrix <- function(x = matrix()) {
-
+        
 }
 
 
