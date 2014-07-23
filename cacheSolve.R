@@ -13,6 +13,7 @@ cacheSolve <- function(x, ...) {
   #use solve, a built-in function to get inversed matrix 
   m <- solve(data)
   
+  ##cache the inversed matrix
   x$setInverse(m)
   
   #Return inversed matrix: m
